@@ -379,13 +379,13 @@ int main(int argc, char** argv)
     printf("**** WELCOME TO GAME OF LIFE ****\n");
     printf("\n");
     printf("\n");
-    printf("Press c to clean all grid\n");
+    printf("Press c to clean all grids\n");
     printf("Press p to run/pause the simulation\n");
     printf("Press f for speed control fast/slow \n");
     printf("Press r re-randomnize the whole grid\n");
     printf("Press n for next stage\n");
 
-    printf("Clicking cells in the grid will alternately turn them on or off\n");
+    printf("Click on the cell to change its state\n");
     printf("Press esc/q to quit");
     printf("\n");
     printf("\n");
