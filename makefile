@@ -25,8 +25,8 @@ else
 endif
 
 #change the 't1' name to the name you want to call your application
-PROGRAM_NAME = Robot
-PROGRAM_NAME_2 = Conway
+#PROGRAM_NAME = Robot
+PROGRAM_NAME = Conway
 
 
 all: $(PROGRAM_NAME) $(PROGRAM_NAME_2)
@@ -38,9 +38,9 @@ run: $(PROGRAM_NAME)
 #ie. boilerplateClass.o and yourFile.o
 #make will automatically know that the objectfile needs to be compiled
 #form a cpp source file and find it itself :)
-$(PROGRAM_NAME): Robot.o
-	$(CC) -o $@ $^ $(CFLAGS) $(LDFLAGS)
-$(PROGRAM_NAME_2): Conway.o 
+# $(PROGRAM_NAME): Robot.o
+# 	$(CC) -o $@ $^ $(CFLAGS) $(LDFLAGS)
+$(PROGRAM_NAME): Conway.o 
 	$(CC) -o $@ $^ $(CFLAGS) $(LDFLAGS)
 
 clean:
