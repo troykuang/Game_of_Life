@@ -1,4 +1,5 @@
 ## WELCOME TO GAME OF LIFE 
+![alt text](img/Welcome.png)
 
 ### Run
 In CLI `make` which generates the executable `Conway`
